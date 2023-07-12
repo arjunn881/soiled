@@ -1,15 +1,12 @@
-
-import './App.css';
-import { BrowserRouter as Router  } from 'react-router-dom';
+import { AllRouter } from "./AllRouter/AllRouter";
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <div className="App">
       <Router>
-      working..........
-     
+        <AllRouter />
       </Router>
-      
-          
     </div>
   );
 }
