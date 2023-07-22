@@ -8,6 +8,8 @@ export const Header = () => {
     <div className='header'>
 
         <Nav/>
+
+        <h1>DARK AIN'T</h1>
     </div>
   )
 }

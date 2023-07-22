@@ -1,11 +1,12 @@
 .blog{
-    background-color:#2b2b2b;
+    background-color:var(--black);
     height: 100vh;
     color:whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 30px;
 }
 
 .blog-block-container{
