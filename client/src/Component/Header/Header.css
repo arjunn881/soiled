@@ -1,7 +1,8 @@
 .header{
     background-image: url(../../asset/landing/bg.jpg);
     background-color:var(--black);
-    object-fit: cover;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     color:whitesmoke;
     background-repeat: no-repeat;
