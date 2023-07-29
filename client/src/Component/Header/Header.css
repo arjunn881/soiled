@@ -1,7 +1,13 @@
 .header{
+    background-image: url(../../asset/landing/bg.jpg);
     background-color:var(--black);
+    object-fit: cover;
     height: 100vh;
     color:whitesmoke;
+    background-repeat: no-repeat;
+    
+    
+
 }
 .header h1{
     font-style: normal;
@@ -24,4 +30,12 @@
 
 a{
     text-decoration: none ;
+}
+
+
+@media screen and (max-width:480px) {
+    .header h1{
+        font-size: 110px;
+        line-height: 110px;
+    }
 }
